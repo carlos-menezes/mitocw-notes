@@ -5,13 +5,13 @@
 - Composed of factual statements;
 - Give you a way of testing things but not how to accomplish them;
 
-**Examples:**
+**Example:**
 > y is the square root of x if and only if y*y=x
 
 ### b. Imperative Knowledge
 - Tells you how to accomplish something, thus it's pretty much an algorithm[^1];
 
-**Examples:**
+**Example:**
 Compute an approximation to the square root of x.
 1. Start with a guess, g;
 2. If g*g is *close enough* to x, then g is a good approximation of the square root of x;
@@ -32,11 +32,11 @@ Compute an approximation to the square root of x.
 ### a. Syntax
 - Sequence of characters and symbols that constitute a well-formed string;
 - Language-specific constraint on how to express static semantics;
-**Example:**
 
+**Example:**
 ```py
 x = 3+1 # valid syntax
-x = "abc" # valid syntax
+x = 3/"abc" # valid syntax
 ```
 
 ### b. Static Semantics
