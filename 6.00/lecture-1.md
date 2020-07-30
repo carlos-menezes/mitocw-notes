@@ -15,7 +15,7 @@
 Compute an approximation to the square root of x.
 1. Start with a guess, g;
 2. If g*g is *close enough* to x, then g is a good approximation of the square root of x;
-3. Otherwise, create a new guess: `g<sub>new</sub>=(g<sub>old</sub>+x/(g<sub>old</sub>))/2`;
+3. Otherwise, create a new guess: ![](https://i.imgur.com/6P5uC4r.gif);
 4. Go back to step 2.
 
 ---
@@ -61,4 +61,8 @@ x = 3+1 # x is 4
 ## IV. Compiled vs. Interpreted
 ### a. Compiled
 - `source code -> checker -> interpreter -> output`
-- `source code -> checker/compiler -> object code -> interpreter -> output`
+- `source code -> checker/compiler -> object code -> interpreter -> output
+
+---
+
+[^1]: a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
