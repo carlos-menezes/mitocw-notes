@@ -15,7 +15,7 @@
 
 ## II. Branching Programs
 - Every step is executed, at most, once;
-- The length of program (in terms of lines) is *roughly*[^2] directly proportional to the amount of time it will take to execute the program.
+- The length of program (in terms of lines) is *roughly*<sup>1</sup> directly proportional to the amount of time it will take to execute the program.
 - These programs are somewhat limited;
 
 ---
@@ -33,5 +33,8 @@ surname = input("Enter your surname: ")
 print(f'{surname} {birth}')
 ```
 
+---
 
-[^2]: Some instructions take more (or less) time than others.
+### Footnotes
+
+[1]: Some instructions take more (or less) time than others.
