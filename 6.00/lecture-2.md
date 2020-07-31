@@ -15,7 +15,7 @@
 
 ## II. Branching Programs
 - Every step is executed, at most, once;
-- The length of program (in terms of lines) is *roughly*<sup>1</sup> directly proportional to the amount of time it will take to execute the program.
+- The length of program (in terms of lines) is *roughly*<sup>[1](#fn-1)</sup> directly proportional to the amount of time it will take to execute the program.
 - These programs are somewhat limited;
 
 ---
@@ -37,4 +37,4 @@ print(f'{surname} {birth}')
 
 ### Footnotes
 
-[1]: Some instructions take more (or less) time than others.
+<a name="fn-1">[1]</a>: Some instructions take more (or less) time than others.

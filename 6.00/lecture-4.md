@@ -22,9 +22,9 @@ print(x) # 3
 
 **Function call flow:**
 1. The formal parameter, `x`, is _bound_ to the value of the _actual_ parameter, `x`;
-2. Upon entry of a function, a new _scope_<sup>1</sup> is created:
+2. Upon entry of a function, a new _scope_<sup>[1](#fn-1)</sup> is created:
 	- Variables declared inside a scope are only accessible inside that scope.
 ---
 
 ### Footnotes
-[1]: A mapping from names to objects;
+<a name="fn-1">[1]</a>: A mapping from names to objects;
