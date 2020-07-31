@@ -61,7 +61,7 @@ x = 3+1 # x is 4
 ## IV. Compiled vs. Interpreted
 ### a. Compiled
 - `source code -> checker -> interpreter -> output`
-- `source code -> checker/compiler -> object code -> interpreter -> output
+- `source code -> checker/compiler -> object code -> interpreter -> output`
 
 ---
 
